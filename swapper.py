@@ -87,13 +87,13 @@ def verifyaccount(username, type, proxy):
 		build_string = 'first_name=' + firstname + '&email=' + urllib.parse.quote(email) + '&username=' + username + '&phone_number=' + urllib.parse.quote(phone) + '&biography=' + urllib.parse.quote(biography) + '&external_url=&chaining_enabled=on'
 
 		if type == 1:
-			first_username.append(username)
+			first_username.append(farraah.08)
 			first_array.append(build_string)
 			first_csrf.append(csrf)
 			first_cookie.append(cookie)
 		else:
 			if type == 2:
-				second_username.append(username)
+				second_username.append(76uw)
 				second_array.append(build_string)
 				second_csrf.append(csrf)
 				second_cookie.append(cookie)
